@@ -1,58 +1,45 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="java.time.format.DateTimeFormatter" %>
 <%@ page import="ru.javawebinar.topjava.model.MealTo" %>
 <%@ page import="java.util.List" %>
-<%@ page import="ru.javawebinar.topjava.web.MealsStorage" %>
-<%@ page import="ru.javawebinar.topjava.util.MealsUtil" %>
-<%@ page import="java.time.LocalTime" %>
-<%@ page import="java.time.format.DateTimeFormatter" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: skosarev
-  Date: 24.08.2022
-  Time: 20:00
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <style>
-    table, th, td {
-        border:1px solid black;
-        border-collapse: collapse;
-    }
-
     .red {
-        color: red;
+        color: #ff2f2f;
     }
-
     .green {
-        color: green;
+        color: #21a421;
     }
 </style>
 <head>
+    <link rel="stylesheet" href="table.css">
     <title>Meals</title>
 </head>
 <body>
     <h3><a href="index.html">Home</a></h3>
     <hr>
-    <h2>Meals:</h2>
-    <table style="width:450px">
-        <tr>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Description</th>
-            <th>Calories</th>
-        </tr>
-        <%
-            List<MealTo> meals = MealsUtil.getFiltered(MealsStorage.meals, LocalTime.MIN, LocalTime.MAX, 2000);
-            for (MealTo meal : meals) {
-                boolean isExcess = meal.isExcess();
-                out.println("<tr>");
-                out.print(String.format("<th class=\"%s\">%s</th>", isExcess ? "red" : "green", meal.getDateTime().toLocalDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy"))));
-                out.print(String.format("<th class=\"%s\">%s</th>", isExcess ? "red" : "green", meal.getDateTime().toLocalTime()));
-                out.print(String.format("<th class=\"%s\">%s</th>", isExcess ? "red" : "green", meal.getDescription()));
-                out.print(String.format("<th class=\"%s\">%d</th>", isExcess ? "red" : "green", meal.getCalories()));
-                out.println("</tr>");
-            }
-        %>
-    </table>
+    <h2>Meals</h2>
+
+    <div class="table-wrapper">
+        <table class="fl-table">
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Description</th>
+                <th>Calories</th>
+            </tr>
+            <c:forEach var="meal" items="${mealsList}">
+                <c:set var="color" value="${meal.isExcess() ? \"red\" : \"green\"}"/>
+                <tr>
+                    <td class="${color}">${meal.getDateTime().toLocalDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy"))}</td>
+                    <td class="${color}">${meal.getDateTime().toLocalTime().format(DateTimeFormatter.ofPattern("HH:mm"))}</td>
+                    <td class="${color}">${meal.getDescription()}</td>
+                    <td class="${color}">${meal.getCalories()}</td>
+                </tr>
+            </c:forEach>
+        </table>
+    </div>
 </body>
 </html>

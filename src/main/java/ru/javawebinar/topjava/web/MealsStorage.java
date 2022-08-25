@@ -15,6 +15,6 @@ public class MealsStorage {
             new Meal(LocalDateTime.of(2015, Month.MAY, 31, 10, 0), "Завтрак", 1000),
             new Meal(LocalDateTime.of(2015, Month.MAY, 31, 13, 0), "Обед", 500),
             new Meal(LocalDateTime.of(2015, Month.MAY, 31, 20, 0), "Ужин", 510),
-            new Meal(LocalDateTime.MAX, "test row", Integer.MAX_VALUE)
+            new Meal(LocalDateTime.now(), "test row", 1000)
     );
 }
