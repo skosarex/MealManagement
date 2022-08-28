@@ -1,3 +1,3 @@
 ## Screenshots
-![img.png](img.png)
-![img_1.png](img_1.png)
+![new_img.png](img.png)
+![new_img_1.png](img_1.png)
