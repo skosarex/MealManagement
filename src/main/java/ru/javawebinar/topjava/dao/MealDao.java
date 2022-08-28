@@ -1,5 +1,6 @@
 package ru.javawebinar.topjava.dao;
 
+import org.slf4j.Logger;
 import ru.javawebinar.topjava.model.MealTo;
 
 import java.io.*;
@@ -7,14 +8,18 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.slf4j.LoggerFactory.getLogger;
+
 public class MealDao implements Database<MealTo> {
     private static final File DATA_FILE = new File("d://dev/database.txt");
+    private static final Logger logger = getLogger(MealDao.class);
 
     @Override
     public synchronized void add(MealTo elem) throws IOException {
         try (FileWriter writer = new FileWriter(DATA_FILE, true)) {
             writer.write(String.format("%d %s %s %d %b", elem.getId(), elem.getDateTime().toString(),
                     elem.getDescription(), elem.getCalories(), elem.isExcess()) + '\n');
+            logger.debug("Meal added: " + elem.getDescription());
         }
     }
 
@@ -29,6 +34,7 @@ public class MealDao implements Database<MealTo> {
                     for (int i = 2; i < parts.length - 2; i++) {
                         description.append(parts[i]).append(" ");
                     }
+                    logger.debug("Get Meal: " + description);
                     return new MealTo(Integer.parseInt(parts[0]), LocalDateTime.parse(parts[1]),
                             description.toString().trim(), Integer.parseInt(parts[parts.length - 2]),
                             Boolean.parseBoolean(parts[parts.length - 1]));
@@ -54,6 +60,7 @@ public class MealDao implements Database<MealTo> {
                         Boolean.parseBoolean(parts[parts.length - 1])));
             }
         }
+        logger.debug("Get all Meals");
         return allMeals;
     }
 
@@ -70,6 +77,7 @@ public class MealDao implements Database<MealTo> {
         }
         DATA_FILE.delete();
         newFile.renameTo(DATA_FILE);
+        logger.debug("Meal deleted: " + id);
     }
 
     @Override
@@ -89,5 +97,6 @@ public class MealDao implements Database<MealTo> {
         }
         DATA_FILE.delete();
         newFile.renameTo(DATA_FILE);
+        logger.debug("Meals updated: " + elem.getId());
     }
 }

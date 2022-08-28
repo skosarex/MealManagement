@@ -55,13 +55,11 @@ public class MealServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        MealTo meal = new MealTo(LocalDateTime.now(), request.getParameter("description"),
+        request.setCharacterEncoding("UTF-8");
+        MealTo meal = new MealTo(LocalDateTime.parse(request.getParameter("dateTime")),
+                request.getParameter("description"),
                 Integer.parseInt(request.getParameter("calories")),
                 Boolean.parseBoolean(request.getParameter("excess")));
-//        meal.setDateTime(LocalDateTime.now());
-//        meal.setDescription(request.getParameter("description"));
-//        meal.setCalories(Integer.parseInt(request.getParameter("calories")));
-//        meal.setExcess(Boolean.parseBoolean(request.getParameter("excess")));
         String mealId = request.getParameter("mealId");
         if (mealId == null || mealId.isEmpty()) {
             dao.add(meal);

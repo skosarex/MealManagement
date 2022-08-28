@@ -1,0 +1,503 @@
+2022-08-24 03:18:21,851 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 15:42:30,542 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 15:42:35,972 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 15:42:37,827 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 15:42:39,197 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 17:59:25,978 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 17:59:30,869 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 17:59:35,033 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 17:59:38,450 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 17:59:45,760 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 19:55:35,445 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 19:55:45,048 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-24 20:05:10,399 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-24 20:05:13,034 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-24 20:05:14,684 DEBUG UserServlet [UserServlet.java:19] redirect to users
+2022-08-24 21:03:57,277 DEBUG UserServlet [UserServlet.java:19] redirect to users
+2022-08-24 21:03:59,104 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 14:55:52,641 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 14:56:06,378 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 14:56:06,388 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 14:57:08,291 DEBUG UserServlet [UserServlet.java:19] redirect to users
+2022-08-25 14:57:15,145 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 14:57:40,114 DEBUG UserServlet [UserServlet.java:19] redirect to users
+2022-08-25 14:57:51,509 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 14:59:35,302 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 14:59:51,067 DEBUG UserServlet [UserServlet.java:19] redirect to users
+2022-08-25 14:59:54,287 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 15:00:23,748 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 15:31:29,489 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 15:33:19,669 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 15:51:01,513 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:02:35,526 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:02:43,776 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:02:46,304 DEBUG UserServlet [UserServlet.java:19] redirect to users
+2022-08-25 16:02:48,422 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:03:45,550 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:04:21,504 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:17:20,518 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:17:32,876 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:20:32,311 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:20:36,391 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:20:38,968 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:21:16,433 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:22:13,172 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:23:10,680 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:23:17,711 DEBUG UserServlet [UserServlet.java:19] redirect to users
+2022-08-25 16:23:20,096 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:57:16,783 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 16:57:56,054 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:05:16,416 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:05:19,119 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:05:59,756 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:21:24,778 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:21:56,493 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:22:03,365 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:23:45,014 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 17:25:01,301 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 18:28:26,267 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-25 21:59:58,042 DEBUG MealServlet [MealServlet.java:24] Forward to meals.jsp
+2022-08-25 22:00:55,749 DEBUG UserServlet [UserServlet.java:17] redirect to users
+2022-08-25 22:01:01,455 DEBUG MealServlet [MealServlet.java:24] Forward to meals.jsp
+2022-08-25 22:15:57,576 INFO  MealServlet [MealServlet.java:18] getAll
+2022-08-28 03:08:06,136 INFO  MealServlet [MealServlet.java:53] Forward to listMeals.jsp
+2022-08-28 03:08:13,253 INFO  MealServlet [MealServlet.java:53] Forward to listMeals.jsp
+2022-08-28 03:08:15,968 INFO  MealServlet [MealServlet.java:53] Forward to listMeals.jsp
+2022-08-28 03:08:16,872 INFO  MealServlet [MealServlet.java:53] Forward to listMeals.jsp
+2022-08-28 03:08:17,122 INFO  MealServlet [MealServlet.java:53] Forward to listMeals.jsp
+2022-08-28 03:10:32,610 INFO  MealServlet [MealServlet.java:53] Forward to listMeals.jsp
+2022-08-28 03:18:59,235 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:19:11,740 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 03:20:25,259 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:20:59,105 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:21:52,000 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:25:24,400 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:25:26,667 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 03:25:29,303 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 03:26:34,267 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 03:26:38,047 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 03:29:25,793 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:29:30,505 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:30:45,268 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:42:06,800 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:44:58,366 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:46:50,704 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:47:20,232 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:48:45,793 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:48:46,618 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:48:47,570 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:51:26,032 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:55:13,075 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:55:41,218 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:56:12,435 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:58:17,674 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:58:18,590 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:58:25,774 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:58:47,469 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:59:13,401 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:59:52,318 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 03:59:53,691 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:02,508 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:16,104 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:17,017 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:17,534 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:17,870 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:18,170 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:18,372 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:18,619 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:18,769 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:18,905 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:19,047 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:19,181 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:00:53,885 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:02:14,911 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:15,722 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:16,084 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:16,357 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:16,496 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:16,649 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:16,798 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:16,973 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:02:17,124 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:07:59,147 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:07:59,926 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:11:36,268 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:11:40,254 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:11:46,184 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:13:32,058 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:13:32,776 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:13:33,687 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:14:09,665 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:14:24,328 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:14:25,433 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:14:26,050 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:14:26,648 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:16:07,458 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:16:30,155 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:16:31,168 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:17:02,901 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:17:04,878 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:17:52,803 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:20:40,951 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:21:34,293 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:21:35,250 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:22:11,418 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:22:18,744 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:22:19,365 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:22:19,829 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:22:20,237 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:22:41,681 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:22:42,617 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:23:04,264 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:24:13,320 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:24:14,019 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:24:42,489 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:25:29,753 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:25:51,222 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:25:58,074 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:02,242 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:03,275 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:03,780 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:04,065 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:04,227 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:04,360 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:04,511 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:04,660 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:04,796 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:07,899 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:21,024 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:26:47,637 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:27:03,063 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:27:05,772 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:27:07,037 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:27:20,249 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:27:41,377 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:28:30,112 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:29:10,888 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:29:49,533 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:30:35,289 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:30:36,054 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:06,297 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:06,813 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:07,251 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:07,448 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:07,583 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:07,711 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:52,053 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:52,956 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:53,441 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:54,008 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:54,263 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:54,727 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:54,909 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:55,071 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:55,222 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:55,356 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:55,498 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:55,644 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:55,777 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:55,913 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:56,061 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:31:56,211 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:15,434 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:32:18,364 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:36,500 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:32:39,552 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:40,009 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:40,336 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:40,503 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:40,651 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:40,797 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:42,319 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:42,467 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:42,764 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:42,912 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:43,033 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:32:47,950 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:35:17,705 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:35:36,203 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:35:37,262 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:35:38,468 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:35:41,609 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:36:29,502 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:50:06,406 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:50:10,917 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:51:04,315 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:51:05,178 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:51:18,418 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:51:18,988 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:51:26,485 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:51:26,939 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:51:27,084 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:53:09,034 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:53:09,864 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:53:11,021 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:54:01,030 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:56:22,453 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:56:28,770 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 04:59:03,189 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:59:03,816 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:59:18,498 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 04:59:27,134 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:01:04,082 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:04,622 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:06,656 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:01:10,274 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:12,088 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:12,823 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:13,209 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:13,404 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:13,562 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:13,705 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:13,840 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:01:15,512 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:01:29,075 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:06:56,823 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:07:25,441 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:07:26,947 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:07:34,005 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:12:34,063 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:12:34,938 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:12:49,038 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:14:10,053 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:14:10,993 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:14:37,035 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:14:37,846 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:14:38,353 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:14:59,963 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:15:29,657 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:15:56,493 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:15:57,007 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:16:34,711 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:16:35,429 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:17:09,739 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:17:22,765 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:17:23,565 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:19:12,559 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:19:13,194 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:19:31,787 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:21:26,272 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:21:48,319 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:22:05,818 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:22:06,771 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:22:53,677 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:31:56,377 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:31:58,741 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:42:26,316 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:44:38,298 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 05:45:37,437 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:46:16,034 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:46:19,701 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:46:20,620 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:46:36,037 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:46:37,197 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:46:59,247 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 05:51:35,428 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 13:45:06,608 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-28 13:45:20,994 DEBUG UserServlet [UserServlet.java:18] redirect to users
+2022-08-28 13:45:22,532 DEBUG MealServlet [MealServlet.java:17] redirect to meals
+2022-08-28 13:49:32,721 INFO  MealServlet [MealServlet.java:18] getAll
+2022-08-28 13:55:35,375 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:55:36,858 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 13:56:29,885 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:31,614 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:32,047 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:32,363 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:33,712 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:34,290 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:34,767 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:35,050 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:56:35,317 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:05,528 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:05,534 INFO  MealServlet [MealServlet.java:56] Delete 1
+2022-08-28 13:57:07,605 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:08,247 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:08,525 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:08,752 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:08,901 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:09,503 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:09,689 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:09,846 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:09,988 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:10,138 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:10,278 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:10,412 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:10,541 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:10,700 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:11,301 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:11,445 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:11,591 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:11,931 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:12,705 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:12,868 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:13,000 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:13,163 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:13,299 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:17,204 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:17,652 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:18,020 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:19,514 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:57:19,519 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 13:58:02,315 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:58:02,958 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:58:03,102 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:58:03,246 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:58:03,385 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:58:03,544 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:58:05,162 DEBUG UserServlet [UserServlet.java:18] forward to users
+2022-08-28 13:58:07,230 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:58:07,233 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 13:59:30,918 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:31,301 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:31,452 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:31,594 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:31,736 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:31,874 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:32,026 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:32,177 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:32,311 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:32,627 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:32,761 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:32,895 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:33,044 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:33,162 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:33,456 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:33,593 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:33,713 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:33,855 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:33,993 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:34,131 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:34,289 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:34,416 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:34,552 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:34,711 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:34,847 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:34,987 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:35,122 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:35,614 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:35,935 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:36,091 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:36,248 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:36,388 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:36,531 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:36,699 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:36,847 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:36,998 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:37,522 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:37,643 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:37,816 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:37,974 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:38,131 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:38,305 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:38,475 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:38,604 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:38,760 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:38,913 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:39,054 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:39,212 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:39,354 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:39,518 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 13:59:39,643 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 14:01:25,410 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 14:01:25,413 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 19:42:23,847 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 19:42:23,856 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 19:42:24,349 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 19:42:24,350 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 19:42:24,774 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 19:42:24,775 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 19:42:27,649 INFO  MealServlet [MealServlet.java:48] getAll
+2022-08-28 19:42:27,652 INFO  MealServlet [MealServlet.java:70] getAll
+2022-08-28 20:25:08,371 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 20:25:50,476 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 20:26:47,994 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 20:26:51,833 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 20:26:54,725 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 20:32:43,456 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-28 20:32:44,733 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 20:32:55,693 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 21:50:36,332 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-28 21:50:38,845 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 21:57:18,824 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-28 21:57:21,981 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 21:57:26,463 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-28 21:58:10,817 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-28 21:58:10,873 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 21:58:13,120 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-28 21:58:13,154 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 22:00:24,832 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-28 22:00:24,876 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-28 22:00:29,729 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-28 22:00:29,744 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 00:41:59,034 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 00:42:00,343 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 00:42:32,146 DEBUG MealDao [MealDao.java:80] Meal deleted: 13
+2022-08-29 00:42:32,154 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 00:42:32,210 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 00:42:40,519 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-29 00:43:49,217 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-29 00:43:58,738 DEBUG MealDao [MealDao.java:22] Meal added: new meal
+2022-08-29 00:43:58,754 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 00:59:01,536 INFO  MealServlet [MealServlet.java:62] null
+2022-08-29 00:59:01,550 DEBUG MealDao [MealDao.java:22] Meal added: new meal
+2022-08-29 00:59:01,559 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 00:59:04,897 INFO  MealServlet [MealServlet.java:62] null
+2022-08-29 00:59:04,897 DEBUG MealDao [MealDao.java:22] Meal added: new meal
+2022-08-29 00:59:04,905 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 00:59:17,372 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 00:59:54,047 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:00:56,194 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:00:56,531 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:01:03,574 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-29 01:01:44,952 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-29 01:02:14,545 INFO  MealServlet [MealServlet.java:62] 2022-08-29T01:02
+2022-08-29 01:02:14,553 DEBUG MealDao [MealDao.java:22] Meal added: new meal
+2022-08-29 01:02:14,553 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:03:44,765 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-29 01:04:04,694 DEBUG MealDao [MealDao.java:22] Meal added: Night meal
+2022-08-29 01:04:04,704 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:04:10,757 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-29 01:05:02,939 DEBUG MealDao [MealDao.java:22] Meal added: New year meal!
+2022-08-29 01:05:02,947 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:08:20,559 DEBUG MealDao [MealDao.java:37] Get Meal: New year meal! 
+2022-08-29 01:08:20,559 INFO  MealServlet [MealServlet.java:53] Forward to meal.jsp
+2022-08-29 01:10:27,151 DEBUG MealDao [MealDao.java:80] Meal deleted: 98
+2022-08-29 01:10:27,164 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:10:27,181 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:10:29,268 DEBUG MealDao [MealDao.java:80] Meal deleted: 100
+2022-08-29 01:10:29,277 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:10:29,281 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:10:30,027 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:10:30,032 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:10:30,039 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:11:37,613 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:11:37,615 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:11:37,633 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:11:39,033 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:11:39,035 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:11:39,045 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:11:40,376 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:11:40,383 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:11:40,395 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:11:40,937 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:11:40,939 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:11:40,945 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:11:41,090 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:11:41,092 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:11:41,096 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:11:41,245 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:11:41,247 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:11:41,251 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:11:41,469 DEBUG MealDao [MealDao.java:80] Meal deleted: 101
+2022-08-29 01:11:41,472 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:11:41,479 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:15:41,806 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:15:41,830 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:15:48,830 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:15:48,845 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:15:57,620 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:15:57,644 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:16:12,444 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:16:12,457 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp
+2022-08-29 01:16:14,700 DEBUG MealDao [MealDao.java:63] Get all Meals
+2022-08-29 01:16:14,710 INFO  MealServlet [MealServlet.java:53] Forward to listMeal.jsp

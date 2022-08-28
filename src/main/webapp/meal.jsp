@@ -7,6 +7,7 @@
 --%>
 
 <%-- i want to sleep. i will clean up this code later --%>
+<%--	or not ¯\_(ツ)_/¯	--%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -30,7 +31,11 @@
 	<title>Edit meal</title>
 </head>
 <body>
-<form action="/topjava/meals" method="POST">
+<form action="meals" method="POST">
+	Date:
+	<br>
+	<input type="datetime-local" name="dateTime">
+	<br>
 	Description:
 	<br>
 	<input type="text" name="description">

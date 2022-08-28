@@ -58,7 +58,6 @@
     <table border=1 class="fl-table">
         <thead>
         <tr>
-            <th>Meal Id</th>
             <th>Date</th>
             <th>Time</th>
             <th>Description</th>
@@ -68,9 +67,9 @@
         </thead>
         <tbody>
         <c:forEach items="${meals}" var="meal">
+            <jsp:useBean id="meal" type="ru.javawebinar.topjava.model.MealTo"></jsp:useBean>
             <c:set var="color" value="${meal.isExcess() ? \"red\" : \"green\"}"/>
             <tr class="${color}">
-                <td>${meal.getId()}</td>
                 <td>${meal.getDateTime().toLocalDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy"))}</td>
                 <td>${meal.getDateTime().toLocalTime().format(DateTimeFormatter.ofPattern("HH:mm"))}</td>
                 <td>${meal.getDescription()}</td>
