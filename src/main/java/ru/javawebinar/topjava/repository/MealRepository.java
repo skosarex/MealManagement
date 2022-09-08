@@ -8,11 +8,12 @@ public interface MealRepository {
     // null if not found, when updated
     Meal save(Meal meal);
 
-    // false if not found
-    boolean delete(int id);
+    // false if not found or userId != meal.userId
+    boolean delete(int id, int userId);
 
-    // null if not found
-    Meal get(int id);
+    // null if not found or userId != meal.userId
+    Meal get(int id, int userId);
 
-    Collection<Meal> getAll();
+    //null if userId != meal.userId
+    Collection<Meal> getAll(int userId);
 }
