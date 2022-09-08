@@ -2,19 +2,25 @@ package ru.javawebinar.topjava;
 
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.javawebinar.topjava.model.Role;
-import ru.javawebinar.topjava.model.User;
-import ru.javawebinar.topjava.web.user.AdminRestController;
+import ru.javawebinar.topjava.model.Meal;
+import ru.javawebinar.topjava.web.meal.MealRestController;
 
-import java.util.Arrays;
+import java.time.LocalDateTime;
+import java.time.Month;
 
 public class SpringMain {
     public static void main(String[] args) {
-        // java 7 automatic resource management
-        try (ConfigurableApplicationContext appCtx = new ClassPathXmlApplicationContext("spring/spring-app.xml")) {
-            System.out.println("Bean definition names: " + Arrays.toString(appCtx.getBeanDefinitionNames()));
-            AdminRestController adminUserController = appCtx.getBean(AdminRestController.class);
-            adminUserController.create(new User(null, "userName", "email@mail.ru", "password", Role.ROLE_ADMIN));
-        }
+        ConfigurableApplicationContext appCtx = new ClassPathXmlApplicationContext("spring/spring-app.xml");
+        MealRestController controller = appCtx.getBean("mealRestController", MealRestController.class);
+
+        controller.create(new Meal(1, LocalDateTime.of(2020, Month.MAY, 2, 10, 0), "Перекус", 500));
+        controller.create(new Meal(1, LocalDateTime.of(2020, Month.AUGUST, 19, 20, 0), "Ужин", 500));
+        controller.create(new Meal(14, LocalDateTime.of(2020, Month.SEPTEMBER, 5, 20, 0), "Ужин", 410));
+        controller.create(new Meal(1, LocalDateTime.of(2020, Month.MARCH, 31, 10, 0), "Завтрак", 1000));
+        controller.create(new Meal(14, LocalDateTime.of(2020, Month.MAY, 2, 10, 0), "Завтрак", 500));
+
+        controller.getAll().forEach(System.out::println);
+
+        appCtx.close();
     }
 }

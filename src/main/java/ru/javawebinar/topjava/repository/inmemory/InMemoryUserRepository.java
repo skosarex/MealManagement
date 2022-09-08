@@ -18,8 +18,6 @@ public class InMemoryUserRepository implements UserRepository {
     private Map<Integer, User> repository = new ConcurrentHashMap<>();
     private AtomicInteger counter = new AtomicInteger(0);
 
-    //TODO users initialization ???
-
     @Override
     public User save(User user) {
         log.info("save {}", user);
