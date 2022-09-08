@@ -21,49 +21,65 @@ public class InMemoryMealRepository implements MealRepository {
 
     @Override
     public Meal save(Meal meal) {
-        if (meal.isNew()) {
-            meal.setId(counter.incrementAndGet());
-            repository.put(meal.getId(), meal);
-            return meal;
+        try {
+            if (meal.isNew()) {
+                meal.setId(counter.incrementAndGet());
+                repository.put(meal.getId(), meal);
+                return meal;
+            }
+            // treat case: update, but not present in storage
+            return repository.computeIfPresent(meal.getId(), (id, oldMeal) -> meal);
+        } catch (NullPointerException e) {
+            return null;
         }
-        // treat case: update, but not present in storage
-        return repository.computeIfPresent(meal.getId(), (id, oldMeal) -> meal);
     }
 
     @Override
     public boolean delete(int id, int userId) {
-        if (repository.get(id).getUserId() != userId)
+        try {
+            if (repository.get(id).getUserId() != userId)
+                return false;
+            return repository.remove(id) != null;
+        } catch (NullPointerException e) {
             return false;
-        return repository.remove(id) != null;
+        }
     }
 
     @Override
     public Meal get(int id, int userId) {
-        Meal meal = repository.get(id);
-        if (meal.getUserId() != userId)
+        try {
+            Meal meal = repository.get(id);
+            if (meal.getUserId() != userId)
+                return null;
+            return meal;
+        } catch (NullPointerException e) {
             return null;
-        return meal;
+        }
     }
 
     @Override
     public Collection<Meal> getAll(int userId) {
-        List<Meal> userMeals = new ArrayList<>();
-        userMeals = repository.values()
-                .stream()
-                .filter(m -> m.getUserId() == userId)
-                .sorted((o1, o2) -> {
-                    if (o2.getDateTime().isAfter(o1.getDateTime())) {
-                        return 1;
-                    } else if (o2.getDateTime().isBefore(o1.getDateTime())) {
-                        return -1;
-                    } else {
-                        return 0;
-                    }
-                })
-                .collect(Collectors.toList());
-        if (userMeals.isEmpty())
-            return null;
-        return userMeals;
+        try {
+            List<Meal> userMeals = new ArrayList<>();
+            userMeals = repository.values()
+                    .stream()
+                    .filter(m -> m.getUserId() == userId)
+                    .sorted((o1, o2) -> {
+                        if (o2.getDateTime().isAfter(o1.getDateTime())) {
+                            return 1;
+                        } else if (o2.getDateTime().isBefore(o1.getDateTime())) {
+                            return -1;
+                        } else {
+                            return 0;
+                        }
+                    })
+                    .collect(Collectors.toList());
+            if (userMeals.isEmpty())
+                return Collections.emptyList();
+            return userMeals;
+        } catch (NullPointerException e) {
+            return Collections.emptyList();
+        }
     }
 
 
