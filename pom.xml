@@ -17,10 +17,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <spring.version>5.3.23</spring.version>
+        <spring-data-jpa.version>2.2.0.RELEASE</spring-data-jpa.version>
+
         <tomcat.version>9.0.67</tomcat.version>
 
         <!-- Logging -->
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.11</logback.version>
         <slf4j.version>1.7.28</slf4j.version>
 
         <!--DB-->
@@ -29,9 +31,9 @@
         <junit.version>4.12</junit.version>
 
         <!-- Hibernate -->
-        <hibernate.version>5.4.7.Final</hibernate.version>
-        <hibernate-validator.version>6.0.17.Final</hibernate-validator.version>
-        <javax-el.version>3.0.1-b11</javax-el.version>
+        <hibernate.version>5.6.9.Final</hibernate.version>
+        <hibernate-validator.version>6.2.3.Final</hibernate-validator.version>
+        <javax-el.version>3.0.1-b12</javax-el.version>
     </properties>
 
     <build>
@@ -104,12 +106,11 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-orm</artifactId>
-            <version>${spring.version}</version>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>${spring-data-jpa.version}</version>
         </dependency>
 
         <!--- ORM -->
@@ -142,7 +143,6 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${spring.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -193,5 +193,14 @@
     </profiles>
 
     <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>${spring.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
 </project>
