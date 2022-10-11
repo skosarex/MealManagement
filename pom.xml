@@ -16,19 +16,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring.version>5.3.23</spring.version>
-        <spring-data-jpa.version>2.2.0.RELEASE</spring-data-jpa.version>
-
+        <spring.version>5.3.20</spring.version>
+        <spring-data-jpa.version>2.7.1</spring-data-jpa.version>
         <tomcat.version>9.0.67</tomcat.version>
 
         <!-- Logging -->
         <logback.version>1.2.11</logback.version>
-        <slf4j.version>1.7.28</slf4j.version>
+        <slf4j.version>1.7.36</slf4j.version>
 
         <!--DB-->
-        <postgresql.version>42.2.8</postgresql.version>
-        <!--    Tests  -->
-        <junit.version>4.12</junit.version>
+        <postgresql.version>42.4.0</postgresql.version>
 
         <!-- Hibernate -->
         <hibernate.version>5.6.9.Final</hibernate.version>
@@ -37,6 +34,10 @@
 
         <!--Cache-->
         <ehcache.version>3.10.0</ehcache.version>
+
+        <!--    Tests  -->
+        <junit.version>4.13.2</junit.version>
+        <assertj.version>3.23.1</assertj.version>
     </properties>
 
     <build>
@@ -46,11 +47,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -64,26 +70,6 @@
     </build>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.2</version>
-        </dependency>
-
-        <!-- Web -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.1</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-        </dependency>
-
         <!-- Logging with SLF4J & LogBack -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -145,8 +131,14 @@
         <dependency>
             <groupId>org.ehcache</groupId>
             <artifactId>ehcache</artifactId>
-<!--            <scope>runtime</scope>-->
+            <scope>runtime</scope>
             <version>${ehcache.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.glassfish.jaxb</groupId>
+                    <artifactId>jaxb-runtime</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!--https://medium.com/criciumadev/its-time-migrating-to-java-11-5eb3868354f9-->
@@ -154,6 +146,20 @@
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-runtime</artifactId>
             <version>2.4.0-b180830.0438</version>
+        </dependency>
+
+        <!--Web-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
         </dependency>
 
         <!--Test-->
@@ -171,7 +177,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.13.2</version>
+            <version>${assertj.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
