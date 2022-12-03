@@ -13,8 +13,8 @@ public class DateTimeUtil {
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
     // HSQLDB doesn't support LocalDate.MIN/MAX
-    private static final LocalDateTime MIN_DATE = LocalDate.of(1, 1, 1).atStartOfDay();
-    private static final LocalDateTime MAX_DATE = LocalDate.of(3000, 1, 1).atStartOfDay();
+    private static final LocalDateTime MIN_DATE = LocalDateTime.of(1, 1, 1, 0, 0);
+    private static final LocalDateTime MAX_DATE = LocalDateTime.of(3000, 1, 1, 0, 0);
 
     private DateTimeUtil() {
     }
